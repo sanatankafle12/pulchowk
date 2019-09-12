@@ -6,40 +6,40 @@ while True:
 	if faculty=='computer':
 		z=0
 		#2076
-		for numbers in range(1,270):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<270:
+			z+=1
+			
 		#2075
-		for numbers in range(1,308):
-			if rank<numbers:
-				z+=1
-				break
+
+		if rank<308:
+			z+=1
+			
 		#2074
-		for numbers in range(1,180):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<180:
+			z+=1
+				
 		#2073
-		for numbers in range(1,196):
-			if rank<numbers:
-				z+=1
-				break
+
+		if rank<196:
+			z+=1
+				
 		#2072
-		for numbers in range(1,224):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<224:
+			z+=1
+				
 		#2071
-		for numbers in range(1,266):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<266:
+			z+=1
+		
 		#2070
-		for numbers in range(1,520):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<520:
+			z+=1
+		
 		Chances=z/7*100
 		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in computer engineering')
 		break
@@ -47,225 +47,209 @@ while True:
 	elif faculty=='civil':
 		z=0
 		#2076
-		for numbers in range(1,338):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<338:
+			z+=1
+		
 		#2075
-		for numbers in range(1,341):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<341:
+			z+=1
+		
 		#2074
-		for numbers in range(1,282):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<282:
+			z+=1
+		
 		#2073
-		for numbers in range(1,341):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<341:
+			z+=1
+	
 		#2072
-		for numbers in range(1,371):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<371:
+			z+=1
+		
 		#2071
-		for numbers in range(1,377):
-			if rank<numbers:
-				z+=1
-				break
+	
+		if rank<377:
+			z+=1
+				
 		#2070
-		for numbers in range(1,569):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<569:
+			z+=1
+				
 		Chances=z/7*100
 		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in civil engineering')
 		break
 	elif faculty=='electrical':
 		z=0
 		#2076
-		for numbers in range(1,563):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<563:
+			z+=1
+			
 		#2075
-		for numbers in range(1,577):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<577:
+			z+=1
+				
 		#2074
-		for numbers in range(1,389):
-			if rank<numbers:
-				z+=1
-				break
+	
+		if rank<389:
+			z+=1
+			
 		#2073
-		for numbers in range(1,402):
-			if rank<numbers:
-				z+=1
-				break
+	
+		if rank<402:
+			z+=1
+				
 		#2072
-		for numbers in range(1,397):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<397:
+			z+=1
+			
 		#2071
-		for numbers in range(1,387):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<387:
+			z+=1
+			
 		#2070
-		for numbers in range(1,755):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<755:
+			z+=1
+			
 		Chances=z/7*100
 		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in electrical engineering')
 		break
 	elif faculty=='electronics':
 		z=0
 		#2076
-		for numbers in range(1,427):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<427:
+			z+=1
+				
 		#2075
-		for numbers in range(1,504):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<504:
+			z+=1
+				
 		#2074
-		for numbers in range(1,386):
-			if rank<numbers:
-				z+=1
-				break
+	
+		if rank<386:
+			z+=1
+				
 		#2073
-		for numbers in range(1,361):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<361:
+			z+=1
+				
 		#2072
-		for numbers in range(1,387):
-			if rank<numbers:
-				z+=1
-				break
+	
+		if rank<387:
+			z+=1
+				
 		#2071
-		for numbers in range(1,360):
-			if rank<numbers:
-				z+=1
-				break
+	
+		if rank<360:
+			z+=1
+				
 		#2070
-		for numbers in range(1,354):
-			if rank<numbers:
-				z+=1
-				break
+	
+		if rank<354:
+			z+=1
+				
 		Chances=z/7*100
 		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in electronics engineering')
 		break
 	elif faculty=='architect':
 		z=0
 		#2076
-		for numbers in range(1,1194):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<1194:
+			z+=1
+			
 		#2075
-		for numbers in range(1,1324):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<1324:
+			z+=1
+				
 		#2074
-		for numbers in range(1,1425):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<1425:
+			z+=1
+				
 		#2073
-		for numbers in range(1,1587):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<1587:
+			z+=1
+				
 		#2072
-		for numbers in range(1,1816):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<1816:
+			z+=1
+				
 		#2071
-		for numbers in range(1,1280):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<1280:
+			z+=1
+			
 		#2070
-		for numbers in range(1,909):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<909:
+			z+=1
+				
 		Chances=z/7*100
 		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in architect')
 		break
 	elif faculty=='mechanical':
 		z=0
 		#2076
-		for numbers in range(1,569):
-			if rank<numbers:
-				z+=1
-				break
+		
+		if rank<569:
+			z+=1
+				
 		#2075
-		for numbers in range(1,474):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<474:
+			z+=1
+			
 		#2074
-		for numbers in range(1,312):
-			if rank<numbers:
+		if rank<312:
 				z+=1
-				break
+			
 		#2073
-		for numbers in range(1,289):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<289:
+			z+=1
+				
 		#2072
-		for numbers in range(1,380):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<380:
+			z+=1
+				
 		#2071
-		for numbers in range(1,264):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<264:
+			z+=1
+				
 		#2070
-		for numbers in range(1,567):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<567:
+			z+=1
 		Chances=z/7*100
 		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in mechanical engineering')
 		break
 	elif faculty=='aerospace':
 		z=0
 		#2076
-		for numbers in range(1,988):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<988:
+			z+=1
+				
 		#2075
-		for numbers in range(1,683):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<683:
+			z+=1
+				
 		Chances=z/2*100
 		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in aerospace engineering')
 		break
 	elif faculty=='chemical':
 		z=0
 		#2076
-		for numbers in range(1,3184):
-			if rank<numbers:
-				z+=1
-				break
+		if rank<3184:
+			z+=1
+				
 		
 		Chances=z*100
 		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in chemical engineering')
