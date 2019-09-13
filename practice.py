@@ -1,6 +1,4 @@
 print("Hey there. This is a program that gives you a rough idea about first admission list in pulchowk college.")
-
-
 faculty=input("Please Enter the branch: ").lower()
 rank=int(input("Please Enter your rank: "))
 faculty_list=['computer','civil','electrical','electronics','architect','mechanical','aerospace','chemical']
