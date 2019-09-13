@@ -10,12 +10,12 @@ dictionary={
 }
 faculty_list=['computer','civil','electrical','electronics','architect','mechanical','aerospace','chemical']
 faculty=None
-while faculty not in faculty_list:
+while dictionary.get(faculty)==None:
 	faculty=input("Enter the faculty you what to know about: ").lower()
 	rank=int(input("Enter your rank: "))
-	print("Please Enter a valid faculty.")
-	
-lst_rank=dictionary[faculty]
+	if faculty not in faculty_list:
+		print("Please Enter a valid faculty.")
+lst_rank=dictionary.get(faculty)
 no_of_chances=0
 for i in lst_rank:
 	if rank<i:
