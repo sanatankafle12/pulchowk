@@ -9,21 +9,11 @@ dictionary={
 	"chemical":[3184]
 }
 faculty_list=['computer','civil','electrical','electronics','architect','mechanical','aerospace','chemical']
-
-faculty=input("Enter the faculty you what to know about: ").lower()
-rank=int(input("Enter your rank: "))
+faculty=None
 while faculty not in faculty_list:
-	print("The faculty you entered is not available in pulchowk. Please check and try again.")
-	
-	
 	faculty=input("Enter the faculty you what to know about: ").lower()
-	
 	rank=int(input("Enter your rank: "))
-	
-	
-	continue
-
-
+		
 lst_rank=dictionary[faculty]
 no_of_chances=0
 for i in lst_rank:
