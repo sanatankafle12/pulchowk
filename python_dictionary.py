@@ -13,7 +13,8 @@ faculty=None
 while faculty not in faculty_list:
 	faculty=input("Enter the faculty you what to know about: ").lower()
 	rank=int(input("Enter your rank: "))
-		
+	print("Please Enter a valid faculty.")
+	
 lst_rank=dictionary[faculty]
 no_of_chances=0
 for i in lst_rank:
