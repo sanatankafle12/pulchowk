@@ -34,7 +34,6 @@ if faculty in faculty_list:
 			if i>rank:
 				z+=1
 
-	
 	elif faculty=='architect':
 		lst_rank=[1194,1324,1425,2587,1816,1280,909]
 		z=0
@@ -71,6 +70,7 @@ if faculty in faculty_list:
 
 else:
 	print("Please Enter a valid faculty.")
+
 
 
 
