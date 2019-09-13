@@ -1,263 +1,87 @@
 print("Hey there. This is a program that gives you a rough idea about first admission list in pulchowk college.")
 
-while True:
-	faculty=input("Please Enter the branch: ").lower()
-	rank=int(input("Please Enter your rank: "))
-	if faculty=='computer':
-		z=0
-		#2076
-		
-		if rank<270:
-			z+=1
-			
-		#2075
 
-		if rank<308:
+faculty=input("Please Enter the branch: ").lower()
+rank=int(input("Please Enter your rank: "))
+if faculty=='computer':
+	lst_rank=[270,308,180,196,224,266,520]
+	z=0
+	for i in lst_rank:
+		if i>rank:
 			z+=1
-			
-		#2074
-		
-		if rank<180:
-			z+=1
-				
-		#2073
+	chances=z/7*100
+	print("There is ",chances,'%',' chance that you will get admitted in pulchowk in computer engineering')
 
-		if rank<196:
+elif faculty=='civil':
+	lst_rank=[388,341,282,341,371,377,569]
+	z=0
+	for i in lst_rank:
+		if i>rank:
 			z+=1
-				
-		#2072
-		
-		if rank<224:
+	chances=z/7*100
+	
+	print("There is ",chances,'%',' chance that you will get admitted in pulchowk in civil engineering')
+	
+elif faculty=='electrical':
+	lst_rank=[563,577,389,402,397,387,755]
+	z=0
+	for i in lst_rank:
+		if i>rank:
 			z+=1
-				
-		#2071
-		
-		if rank<266:
+	chances=z/7*100
+	print("There is ",chances,'%',' chance that you will get admitted in pulchowk in electrical engineering')
+	
+elif faculty=='electronics':
+	lst_rank=[427,504,386,361,387,360,354]
+	z=0
+	for i in lst_rank:
+		if i>rank:
 			z+=1
-		
-		#2070
-		
-		if rank<520:
-			z+=1
-		
-		Chances=z/7*100
-		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in computer engineering')
-		break
+	chances=z/7*100
 
-	elif faculty=='civil':
-		z=0
-		#2076
-		
-		if rank<338:
-			z+=1
-		
-		#2075
-		
-		if rank<341:
-			z+=1
-		
-		#2074
-		
-		if rank<282:
-			z+=1
-		
-		#2073
-		
-		if rank<341:
-			z+=1
+	print("There is ",chances,'%',' chance that you will get admitted in pulchowk in electronics engineering')
 	
-		#2072
-		
-		if rank<371:
+elif faculty=='architect':
+	lst_rank=[1194,1324,1425,2587,1816,1280,909]
+	z=0
+	for i in lst_rank:
+		if i>rank:
 			z+=1
-		
-		#2071
+	chances=z/7*100
 	
-		if rank<377:
-			z+=1
-				
-		#2070
-		
-		if rank<569:
-			z+=1
-				
-		Chances=z/7*100
-		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in civil engineering')
-		break
-	elif faculty=='electrical':
-		z=0
-		#2076
-		
-		if rank<563:
-			z+=1
-			
-		#2075
-		
-		if rank<577:
-			z+=1
-				
-		#2074
+	print("There is ",chances,'%',' chance that you will get admitted in pulchowk in architect')
 	
-		if rank<389:
+elif faculty=='mechanical':
+	lst_rank=[569,474,312,289,380,264,567]
+	z=0
+	for i in lst_rank:
+		if i>rank:
 			z+=1
-			
-		#2073
+	chances=z/7*100
+	print("There is ",chances,'%',' chance that you will get admitted in pulchowk in mechanical engineering')
 	
-		if rank<402:
-			z+=1
-				
-		#2072
-		
-		if rank<397:
-			z+=1
-			
-		#2071
-		
-		if rank<387:
+elif faculty=='aerospace':
+	lst_rank=[988,683]
+	z=0
+	for i in lst_rank:
+		if i>rank:
 			z+=1
 			
-		#2070
-		
-		if rank<755:
-			z+=1
-			
-		Chances=z/7*100
-		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in electrical engineering')
-		break
-	elif faculty=='electronics':
-		z=0
-		#2076
-		
-		if rank<427:
-			z+=1
-				
-		#2075
-		
-		if rank<504:
-			z+=1
-				
-		#2074
+	Chances=z/2*100
+	print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in aerospace engineering')
 	
-		if rank<386:
+elif faculty=='chemical':
+	lst_rank=[3184]
+	z=0
+	for i in lst_rank:
+		if i>rank:
 			z+=1
 				
-		#2073
-		if rank<361:
-			z+=1
-				
-		#2072
+	Chances=z*100
+	print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in chemical engineering')
 	
-		if rank<387:
-			z+=1
-				
-		#2071
-	
-		if rank<360:
-			z+=1
-				
-		#2070
-	
-		if rank<354:
-			z+=1
-				
-		Chances=z/7*100
-		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in electronics engineering')
-		break
-	elif faculty=='architect':
-		z=0
-		#2076
-		if rank<1194:
-			z+=1
-			
-		#2075
-		if rank<1324:
-			z+=1
-				
-		#2074
-		if rank<1425:
-			z+=1
-				
-		#2073
-		if rank<1587:
-			z+=1
-				
-		#2072
-		if rank<1816:
-			z+=1
-				
-		#2071
-		
-		if rank<1280:
-			z+=1
-			
-		#2070
-		
-		if rank<909:
-			z+=1
-				
-		Chances=z/7*100
-		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in architect')
-		break
-	elif faculty=='mechanical':
-		z=0
-		#2076
-		
-		if rank<569:
-			z+=1
-				
-		#2075
-		if rank<474:
-			z+=1
-			
-		#2074
-		if rank<312:
-				z+=1
-			
-		#2073
-		if rank<289:
-			z+=1
-				
-		#2072
-		if rank<380:
-			z+=1
-				
-		#2071
-		if rank<264:
-			z+=1
-				
-		#2070
-		if rank<567:
-			z+=1
-		Chances=z/7*100
-		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in mechanical engineering')
-		break
-	elif faculty=='aerospace':
-		z=0
-		#2076
-		if rank<988:
-			z+=1
-				
-		#2075
-		if rank<683:
-			z+=1
-				
-		Chances=z/2*100
-		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in aerospace engineering')
-		break
-	elif faculty=='chemical':
-		z=0
-		#2076
-		if rank<3184:
-			z+=1
-				
-		
-		Chances=z*100
-		print("There is ",Chances,'%',' chance that you will get admitted in pulchowk in chemical engineering')
-		break
-	else:
-		print('The branch you have chosen is not available in pulchowk. Please try some other branch or check your spelling.')
-		continue
-
+else:
+	print("please be sure that you have chosen correct faculty")
 
 print("NOTE: This is a rough data from past 7 years (i.e from 2070). Every year, the rank keeps on changing so, this isn't a 100% thing. It has been created just to give you a normal idea.")
 
