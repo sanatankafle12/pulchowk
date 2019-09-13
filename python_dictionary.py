@@ -8,15 +8,29 @@ dictionary={
 	"aerospace":[988,683],
 	"chemical":[3184]
 }
+faculty_list=['computer','civil','electrical','electronics','architect','mechanical','aerospace','chemical']
 
 faculty=input("Enter the faculty you what to know about: ").lower()
 rank=int(input("Enter your rank: "))
+while faculty not in faculty_list:
+	print("The faculty you entered is not available in pulchowk. Please check and try again.")
+	
+	
+	faculty=input("Enter the faculty you what to know about: ").lower()
+	
+	rank=int(input("Enter your rank: "))
+	
+	
+	continue
+
 
 lst_rank=dictionary[faculty]
 no_of_chances=0
 for i in lst_rank:
 	if rank<i:
 		no_of_chances+=1
+
+
 percentage=no_of_chances/len(lst_rank)*100
 print("You would have gotten admission ",no_of_chances,"times in ",len(lst_rank),"years in ",faculty," engineering. The Probable percentage being ",percentage,"%.")
 
