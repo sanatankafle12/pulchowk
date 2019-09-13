@@ -13,7 +13,7 @@ faculty=None
 while dictionary.get(faculty)==None:
 	faculty=input("Enter the faculty you what to know about: ").lower()
 	rank=int(input("Enter your rank: "))
-	if faculty not in faculty_list:
+	if dictionary.get(faculty)==None:
 		print("Please Enter a valid faculty.")
 lst_rank=dictionary.get(faculty)
 no_of_chances=0
