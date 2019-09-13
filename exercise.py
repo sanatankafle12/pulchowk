@@ -2,10 +2,11 @@ dictionary={}
 while True:
 	name=input("Enter name you want to store: ")	
 	age=input("Enter the age of the above person: ")
-	if name=='n' or age=='n':
+	dictionary[name]=age
+	more_name=input("Any more name?")
+	if more_name=='no':
 		break
 	else:
-		dictionary[name]=age
 		continue
 
 name=input('Enter a name:')
